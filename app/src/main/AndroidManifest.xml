@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.apps.nishant.iwillguessyournumber">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Think">
+            <intent-filter>
+                <action android:name="com.apps.nishant.iwillguessyournumber.Think" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Card1">
+            <intent-filter>
+                <action android:name="com.apps.nishant.iwillguessyournumber.Card1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Card2">
+            <intent-filter>
+                <action android:name="com.apps.nishant.iwillguessyournumber.Card2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Card4">
+            <intent-filter>
+                <action android:name="com.apps.nishant.iwillguessyournumber.Card4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Card8">
+            <intent-filter>
+                <action android:name="com.apps.nishant.iwillguessyournumber.Card8" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Card16">
+            <intent-filter>
+                <action android:name="com.apps.nishant.iwillguessyournumber.Card16" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Card32">
+            <intent-filter>
+                <action android:name="com.apps.nishant.iwillguessyournumber.Card32" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Card64">
+            <intent-filter>
+                <action android:name="com.apps.nishant.iwillguessyournumber.Card64" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Answer">
+            <intent-filter>
+                <action android:name="com.apps.nishant.iwillguessyournumber.Answer" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
